@@ -1,7 +1,14 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: Nunito;
 }
 /* header */
 header{
@@ -69,10 +76,10 @@ header{
 .col-2-wrapper div p{
     line-height: 2rem;
 }
-.col-2-wrapper div:nth-of-type(2) img:last-child{
-    display: none;
-}
 
+.col-2-wrapper div:first-child{
+    padding: 0 1rem;
+}
 @media screen and (max-width: 990px){
     .col-2-wrapper div:first-child{
         grid-column: 1/3;
@@ -87,27 +94,19 @@ header{
         padding: 0 1rem;
         margin-left: 3rem;
         margin-right: 3rem;
-
-    }
-    .col-2-wrapper div:nth-of-type(2) img:last-child{
-        display: block;
-    }
-    .col-2-wrapper div:nth-of-type(2) {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: 1;
-        padding-left: 1rem;
-        padding-bottom: 1rem;
+        background-color: rgb(103, 223, 231);
     }
     .col-2-wrapper div:nth-of-type(2) img{
-        flex-grow: 1;
+        display: none;
+        grid-column: 1/2;
     }
+    .col-2-wrapper div:first-child{
+        padding: 0 .5rem;
+    }
+
 }
 
-.col-2-wrapper div:first-child{
-    margin: 0 .5rem;
-    padding: 0 1rem;
-}
+
 .col-2-wrapper strong{
     color: brown;
     font-size: medium;
