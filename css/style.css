@@ -61,8 +61,6 @@ header{
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     
     padding: 0 1rem;
-    align-items: center;
-
 }
 
 .image-col-1 img{
@@ -72,7 +70,7 @@ header{
 
 .col-2-wrapper div:first-child{
     grid-column: 1/2;
-    align-self: self-start;
+    
 }
 .col-2-wrapper div p{
     line-height: 2rem;
@@ -305,13 +303,7 @@ header{
 }
 
 /* col-6 */
-.pagination-container {
-    width: calc(100% - 2rem);
-    display: flex;
-    align-items: center;
-    padding: 1rem 0;
-    justify-content: center;
-  }
+
   /* col-7 */
   .col-7{
     display: flex;
@@ -326,8 +318,8 @@ header{
     flex-wrap: wrap;
     flex-grow: 1;
     gap: 1rem;
-    
     line-height: 2rem;
+    
   }
   .col-7-wrapper h2{
     color: brown;

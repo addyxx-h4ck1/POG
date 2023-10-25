@@ -11,6 +11,7 @@
     <!-- css -->
     <!-- js -->
     <script defer src="/js/nav.js"></script>
+    <script defer src="./validate.js"></script>
     <!-- js -->
 </head>
 <body>
@@ -18,7 +19,8 @@
         <div class="header-wrapper">
             <div class="topnav" id="myTopnav">
                 <a href="#home" class="active">Home</a>
-                <a href="#news">News</a>
+                <div>
+                                    <a href="#news">News</a>
                 <a href="#contact">Contact</a>
                 <div class="dropdown">
                     <button class="dropbtn">Dropdown
@@ -32,15 +34,17 @@
                 </div>
                 <a href="#about">About</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+
             </div>
         </div>
     </header>
     <!-- col-1 -->
     <section class="col-1">
-        <div class="col-1-overlay">
+        <div class="col-1-overlay" style="background-image: url(https://images.unsplash.com/photo-1623743426278-462780136975?auto=format&fit=crop&q=80&w=1476&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
             <div class="col-1-wrapper">
-                <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">5 DAYS 4 NIGHTS SAFARI 
-                    Nairobi-naivasha-MasaiMara-Tsavo East - Diani </h1>
+                <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Safari de 5 jours et 4 nuits :
+                    Nairobi-Naivasha-Masai Mara-Tsavo Est-Diani</h1>
             </div>
         </div>
     </section>
@@ -164,7 +168,7 @@
 
                     <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message" required></textarea><br>
 
-                    <input type="submit" value="Book" class="submitbtn">
+                    <input type="submit" class="submitbtn" value="Book" >
                 </form>
             </div>
             <div>

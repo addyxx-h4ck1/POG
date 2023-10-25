@@ -3,8 +3,15 @@
     background-color: #000000;
     z-index: 1000;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
     }
-  
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -18,7 +25,7 @@
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: #04AA6D;
+    background-color: brown;
     color: white;
   }
   
@@ -89,6 +96,9 @@
     }
     .topnav a.icon {
       float: right;
+      display: block;
+    }
+    .topnav{
       display: block;
     }
   }
