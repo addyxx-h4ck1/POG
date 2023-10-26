@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: Nunito;
 }
-
+p{
+    line-height: 2rem;
+}
 header{
     display: flex;
     align-items: center;
@@ -71,6 +73,12 @@ header{
     align-items: center;
     justify-content: center;
 }
+ h3{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(88, 151, 247);
+    color: brown;
+}
 .col-2-wrapper{
     max-width: 1500px;
     width: 100%;
@@ -87,9 +95,9 @@ header{
 
 }
 .col-2-wrapper div img{
-   
+   flex-grow: 1;
     width: 100%;
-    max-height: 300px;
+    min-height: 300px;
     object-fit: cover;
 }
 /* col-2 */
@@ -116,9 +124,9 @@ header{
    
 }
 .col-3-wrapper div img{
-   
+   flex-grow: 1;
     width: 100%;
-    max-height: 300px;
+    min-height: 300px;
     object-fit: cover;
 }
 /* col-2 */
@@ -145,9 +153,9 @@ header{
    
 }
 .col-4-wrapper div img{
-   
+   flex-grow: 1;
     width: 100%;
-    max-height: 300px;
+    min-height: 300px;
     object-fit: cover;
 }
 /* col-4*/
@@ -174,9 +182,9 @@ header{
    
 }
 .col-5-wrapper div img{
-   
+   flex-grow: 1;
     width: 100%;
-    max-height: 300px;
+    min-height: 300px;
     object-fit: cover;
 }
 /* col-5*/
@@ -203,12 +211,162 @@ header{
    
 }
 .col-6-wrapper div img{
-   
+   flex-grow: 1;
     width: 100%;
-    max-height: 300px;
+    min-height: 300px;
     object-fit: cover;
 }
 /* col-6*/
+/* col-7*/
+.col-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-7-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
+   
+}
+.col-7-wrapper div{
+    width: 400px;
+    flex-grow: 1;
+    padding: 0 1rem;
+   
+}
+.col-7-wrapper div img{
+   flex-grow: 1;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+/* col-7*/
+/* col-8*/
+.col-8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-8-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
+   
+}
+.col-8-wrapper div{
+    width: 400px;
+    flex-grow: 1;
+    padding: 0 1rem;
+   
+}
+.col-8-wrapper div img{
+   flex-grow: 1;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+/* col-8*/
+/* col-9*/
+.col-9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-9-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
+   
+}
+.col-9-wrapper div{
+    width: 400px;
+    flex-grow: 1;
+    padding: 0 1rem;
+   
+}
+.col-9-wrapper div img{
+   flex-grow: 1;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+/* col-9*/
+/* col-10*/
+.col-10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-10-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
+   
+}
+.col-10-wrapper div{
+    width: 400px;
+    flex-grow: 1;
+    padding: 0 1rem;
+   
+}
+.col-10-wrapper div img{
+   flex-grow: 1;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+/* col-10*/
+/* col-11*/
+.col-11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-11-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
+   
+}
+.col-11-wrapper div{
+    width: 400px;
+    flex-grow: 1;
+    padding: 0 1rem;
+   
+}
+.col-11-wrapper div img{
+   flex-grow: 1;
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+/* col-1*/
+
+
+
+
+
 /* col-book*/
 .col-book{
     display: flex;

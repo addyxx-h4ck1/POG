@@ -5,6 +5,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
     }
   header{
     position: sticky;
@@ -19,7 +20,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
   }
   
   /* Add an active class to highlight the current page */
@@ -41,7 +42,7 @@
   
   /* Style the dropdown button to fit inside the topnav */
   .dropdown .dropbtn {
-    font-size: 17px;
+    font-size: 15px;
     border: none;
     outline: none;
     color: white;

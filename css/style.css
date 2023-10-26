@@ -6,9 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
-    font-family: Poppins;
+    font-family: Nunito;
+    font-size: 15px;
 }
 /* header */
 header{
@@ -243,7 +245,10 @@ header{
 }
 .main-card:nth-of-type(1),
 .main-card:nth-of-type(2),
-.main-card:nth-of-type(3){
+.main-card:nth-of-type(3),
+.main-card:nth-of-type(4),
+.main-card:nth-of-type(5),
+.main-card:nth-of-type(6){
      display: block;
 }
    
