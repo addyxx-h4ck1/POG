@@ -7,11 +7,11 @@
     justify-content: space-between;
 
     }
-  header{
+  /* header{
     position: sticky;
     top: 0;
     z-index: 1000;
-  }
+  } */
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -25,7 +25,7 @@
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: brown;
+    background-color: darkorange;
     color: white;
   }
   
@@ -56,20 +56,22 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, 0.911);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    color: white;
   }
   
   /* Style the links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: black;
+    color: darkorange;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
+ 
   }
   
   /* Add a dark background on topnav links and the dropdown button on hover */
@@ -80,7 +82,7 @@
   
   /* Add a grey background to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #868686;
     color: black;
   }
   

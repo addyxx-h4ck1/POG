@@ -98,7 +98,7 @@ header{
 
 }
 .col-2-wrapper h2{
-    color: brown;
+    color: darkorange;
     text-align: left;
 }
 /* col-2 */
@@ -194,7 +194,7 @@ header{
     max-height: 500px;
     
 }
-.col-4-wrapper h2{color: brown;}
+.col-4-wrapper h2{color: darkorange;}
 @media screen and (max-width: 990px){
    
 }
@@ -275,7 +275,7 @@ header{
     border:1px solid #334;
     color:#334;
     font-size: 16px;
-    background-color: #fff;
+    background-color: darkorange;
     cursor: pointer;
     text-decoration: none;
   }
@@ -330,7 +330,7 @@ header{
     
   }
   .col-7-wrapper h2{
-    color: brown;
+    color: darkorange;
   }
   .col-7-wrapper img{
     width: 100%;
@@ -345,7 +345,7 @@ header{
     font-size: 15px;
  padding: 1rem 1rem;
  color: #000;
- background-color: brown;
+ background-color: darkorange;
  width: fit-content;
  text-decoration: none;
  border-radius: 10px;
@@ -359,7 +359,7 @@ header{
     align-items: center;
   }
   .col-8-wrapper h2{
-    color: brown;
+    color: darkorange;
   }
   .col-8-wrapper{
     max-width: 1500px;
@@ -378,7 +378,7 @@ header{
 
 /* footer */
 .col-8-wrapper h2{
-    color: brown;
+    color: darkorange
   }
 footer{
     display: flex;
