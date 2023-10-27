@@ -350,6 +350,16 @@ header{
  text-decoration: none;
  border-radius: 10px;
   }
+  .bookbtn:hover{
+    font-size: 15px;
+ padding: 1rem 1rem;
+ color: #000;
+ background-color: rgb(134, 134, 133);
+ width: fit-content;
+ text-decoration: none;
+ border-radius: 10px;
+ transition: all .5s;
+  }
   /* col-7 */
 
 /* col-8 */

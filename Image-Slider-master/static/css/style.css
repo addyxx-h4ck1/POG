@@ -45,15 +45,7 @@ li div{
  width: 300px;
  padding-bottom: 1rem;
 }
-.header .bookbtn{
- font-size: 15px;
- padding: 1rem 1rem;
- color: #000;
- background-color: brown;
- width: fit-content;
- text-decoration: none;
- border-radius: 10px;
-}
+
 @media screen and (max-width: 532px){
   .header h1{
     font-size: 50px;
