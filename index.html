@@ -28,11 +28,17 @@
 </head>
 
 <body>
+    <div class="top">
+        <div class="top-wrapper">
+            <a href="tel:+254727836719">Call: +254727836719 <i class="fa fa-phone"></i></a>
+            <a href="mailto:kenyabahati@yahoo.com">Email <i class="fa fa-envelope"></i></a>
+        </div>
+    </div>
     <header>
         <div class="header-wrapper">
             <div class="topnav" id="myTopnav">
-                <a href="#home" class="active">Home</a>
-               
+                <div>
+                    <a href="#home" class="active">Home</a>
                 <div class="dropdown">
                     <button class="dropbtn">Safaris
                         <i class="fa fa-caret-down"></i>
@@ -49,7 +55,8 @@
                         <a href="/Itineraries/Safari 10 juors 9 nuits, Parc national Hells gate, coliines de loita, reserve nationale du Masai Mara, Parc N. du Lac Nakuru, Parc N.html">Safari 10 juors 9 nuits, Parc national Hells gate, coliines de loita, reserve nationale du Masai Mara, Parc N. du Lac Nakuru, Parc N</a>
                     </div>
                 </div>
-                <a href="#about">À propos de nous</a>
+                </div>
+                <div>
                     <a href="#contact">Contact</a>
                     <div class="dropdown">
                         <button class="dropbtn">Parlez-nous
@@ -62,10 +69,11 @@
                             <a href="https://wa.me/+254727836719"><i class="fa fa-whatsapp"></i> WhatsApp</a>
                         </div>
                     </div>
-                    <a href="/contact/index.html">Book</a>
+                    <a href="">Gallerie</a>
+                    <a href="https://www.tripadvisor.com/LocationPhotoDirectLink-g661279-d13280261-i439435499-Excursions_Bahati_KENYA-Watamu_Coast_Province.html">Avis Clients</a>
+                    <a href="/contact/index.html" style="background-color: darkorange;">Book</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                
-
+                </div>
             </div>
         </div>
     </header>
@@ -155,23 +163,23 @@
                     <h4>Parlez-nous</h4>
                    
                     <label for="Fname">Name</label><br>
-                    <input type="text" name="Fname" placeholder="nom*" required>
+                    <input type="text" name="Fname" id="fname" placeholder="nom*" required>
                     <br>
                     <br>
                     <label for="email">Email</label><br>
-                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="email" id="femail" name="Email" placeholder="Email" required>
                     <br>
                     <br>
                     <label for="subject">Subject</label><br>
-                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <input type="text" id="fsubject" name="Subject" placeholder="Subject" required>
                     <br>
                     <br>
                     <label for="message">Message</label><br>
-                    <textarea name="Message" id="msg" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <textarea name="Message" id="fmsg" cols="30" rows="10" placeholder="Message" required></textarea>
                     <br>
                     <br>
-                    <input type="submit" class="envoyez" value="Envoyez"
-                        style="background-color: brown; margin-bottom: 1rem;">
+                    <input type="submit" class="fenvoyez" value="Envoyez"
+                        style="background-color: darkorange; margin-bottom: 1rem;">
                     <br>
                 </form>
             </div>
@@ -417,70 +425,7 @@
                 </div>
             </div>
             <!-- card -->
-            <!-- card -->
-            <div class="main-card">
-                <div class="image-card">
-                    <img src="https://images.unsplash.com/photo-1518709368567-b22d4217b91f?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2VueWElMjBzYWZhcmlzfGVufDB8fDB8fHww"
-                        alt="">
-                </div>
-                <div>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos omnis minus,</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias minima illum, minus beatae,
-                        maiores alias saepe
-                    </p>
-                    <a href="" class="voir">Voir Plus</a>
-                </div>
-            </div>
-            <!-- card -->
-            <!-- card -->
-            <div class="main-card">
-                <div class="image-card">
-                    <img src="https://images.unsplash.com/photo-1518709368567-b22d4217b91f?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2VueWElMjBzYWZhcmlzfGVufDB8fDB8fHww"
-                        alt="">
-                </div>
-                <div>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos omnis minus,</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias minima illum, minus beatae,
-                        maiores alias saepe
-                    </p>
-                    <a href="" class="voir">Voir Plus</a>
-                </div>
-            </div>
-            <!-- card -->
-            <!-- card -->
-            <div class="main-card">
-                <div class="image-card">
-                    <img src="https://images.unsplash.com/photo-1518709368567-b22d4217b91f?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2VueWElMjBzYWZhcmlzfGVufDB8fDB8fHww"
-                        alt="">
-                </div>
-                <div>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos omnis minus,</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias minima illum, minus beatae,
-                        maiores alias saepe
-                    </p>
-                    <a href="" class="voir">Voir Plus</a>
-                </div>
-            </div>
-            <!-- card -->
-            <!-- card -->
-            <div class="main-card">
-                <div class="image-card">
-                    <img src="https://images.unsplash.com/photo-1518709368567-b22d4217b91f?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2VueWElMjBzYWZhcmlzfGVufDB8fDB8fHww"
-                        alt="">
-                </div>
-                <div>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos omnis minus,</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias minima illum, minus beatae,
-                        maiores alias saepe
-                    </p>
-                    <a href="" class="voir">Voir Plus</a>
-                </div>
-            </div>
-            <!-- card -->
+
 
         </div>
         <div id="load-more"> load more </div>
@@ -582,31 +527,31 @@
     <!--  -->
     <!--  -->
     <br>
-    <section class="col-3">
+    <section class="col-3" id="contact">
         <div class="col-3-wrapper-overlay" style="background-image: url(https://images.unsplash.com/photo-1623762954039-c2b470207b66?auto=format&fit=crop&q=80&w=1476&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
             <div class="col-3-wrapper">
-                <form class="first-form" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="900">
+                <form class="second-form" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="900">
                  
-                    <h4>Parlez-nous</h4>
+                    <h4 >Parlez-nous</h4>
                    
                     <label for="Fname">Name</label><br>
-                    <input type="text" name="Fname" placeholder="nom*" required>
+                    <input type="text" id="sname" name="Fname" placeholder="nom*" required>
                     <br>
                     <br>
                     <label for="email">Email</label><br>
-                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="email" id="semail" name="Email" placeholder="Email" required>
                     <br>
                     <br>
                     <label for="subject">Subject</label><br>
-                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <input type="text" id="ssubject" name="Subject" placeholder="Subject" required>
                     <br>
                     <br>
                     <label for="message">Message</label><br>
-                    <textarea name="Message" id="msg" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <textarea name="Message" id="smsg" cols="30" rows="10" placeholder="Message" required></textarea>
                     <br>
                     <br>
-                    <input type="submit" class="envoyez" value="Envoyez"
-                        style="background-color: brown; margin-bottom: 1rem;">
+                    <input type="submit" class="senvoyez" value="Envoyez"
+                        style="background-color:darkorange; margin-bottom: 1rem;">
                     <br>
                 </form>
             </div>

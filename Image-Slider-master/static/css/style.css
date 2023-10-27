@@ -35,7 +35,7 @@ li div{
 }
 .header h1{
  font-size: 60px;
- color: rgb(236, 33, 33);
+ color: rgb(255, 44, 44);
 }
 .header h4{
  font-size: 30px;
@@ -49,7 +49,6 @@ li div{
 @media screen and (max-width: 532px){
   .header h1{
     font-size: 50px;
-    color: brown;
    }
    .header h4{
     font-size: 20px;
@@ -58,7 +57,6 @@ li div{
 @media screen and (max-width: 440px){
   .header h1{
     font-size: 40px;
-    color: brown;
    }
    .header h4{
     font-size: 20px;
@@ -69,7 +67,13 @@ li div{
     z-index: 2;
 }
 
-
+@media screen and (max-width: 300px){
+  .header p{
+    font-size: 15px;
+    width: fit-content;
+    
+  }
+}
 .controls{
     display: none;
 }

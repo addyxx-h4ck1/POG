@@ -11,6 +11,26 @@
 body{
     font-family: Nunito;
     font-size: 15px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+#contact{
+    scroll-behavior: smooth;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.top-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #334;
+    z-index: 1000;
 }
 /* header */
 header{
