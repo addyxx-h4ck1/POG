@@ -1,17 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* header */
+
+/* col-1 */
+.col-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.col-1-overlay{
+    max-width: 1500px;
+    width: 100%;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1623743426276-3e87e9a4a082?auto=format&fit=crop&q=80&w=1476&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.col-1-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    height: 200px;
+    background-color: #00000054;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.col-1-wrapper h1{
+    color: rgb(255, 35, 35);
+    padding-left: 3rem;
+    padding-bottom: 4rem;
+    font-size: 35px;
+}
+/* col-1 */
+
+/* col-2 */
+.col-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.col-2-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 0 .5rem;
+}
+.card{
+    width: 300px;
+    max-height: 300px;
+    flex-grow: 1;
+}
+@media screen and (max-width: 650px){
+    .card{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 430px){
+    .card{
+        width: 150px;
+    }
+}
+.card img{
+    width: 100%;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    height: 100%;
+    border-radius: 5px;
+}
+.card img:hover{
+    transform:scale(1);
+    transition: all .5s;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    
+}
+
+/* col-2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/*  */
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #000000e3;
-    z-index: 1000;
+    background-color: #000000;
     width: 100%;
     display: flex;
     justify-content: space-between;
-
     }
-  /* header{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  } */
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -102,6 +233,7 @@
     }
     .topnav{
       display: block;
+      background-color: #000000;
     }
   }
   
@@ -125,4 +257,9 @@
       width: 100%;
       text-align: left;
     }
+    .topnav{
+        background-color: #000000;
+    }
   }
+/*  */
+/*  */
