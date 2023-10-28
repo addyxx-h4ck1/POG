@@ -28,9 +28,20 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
     background-color: #334;
     z-index: 1000;
+    padding: 0 3rem;
+}
+@media screen and (max-width: 400px){
+    .top-wrapper{
+        padding: 0 .5rem;
+    }
+}
+@media screen and (max-width: 310px){
+    .top-wrapper{
+        display: none;
+    }
 }
 /* header */
 header{

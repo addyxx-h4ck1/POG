@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Raleway;
-    
 }
 p{
     line-height: 2rem;
@@ -196,7 +195,7 @@ header{
     display: flex;
     max-width: 1500px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(0, 0, 0, 0.568);
     background-size: cover;
     height: 200px;
     color: rgb(194, 194, 194);
@@ -244,6 +243,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-2 */
 /* col-3*/
@@ -273,6 +273,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-2 */
 /* col-4*/
@@ -302,6 +303,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-4*/
 /* col-5*/
@@ -331,6 +333,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-5*/
 /* col-6*/
@@ -360,6 +363,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-6*/
 /* col-7*/
@@ -389,6 +393,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-7*/
 /* col-8*/
@@ -418,6 +423,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-8*/
 /* col-9*/
@@ -447,6 +453,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-9*/
 /* col-10*/
@@ -476,6 +483,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-10*/
 /* col-11*/
@@ -505,6 +513,7 @@ header{
     width: 100%;
     min-height: 300px;
     object-fit: cover;
+    max-height: 400px;
 }
 /* col-1*/
 
@@ -564,7 +573,6 @@ form{
         outline: none;
         border: none;
         margin-bottom: 1rem;
-        background-color: rgb(110, 201, 236);
         width: 100%;
         border-radius: 6px;
     }
