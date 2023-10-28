@@ -17,7 +17,7 @@ form.addEventListener('submit', (e) => {
     
 
     // https://github.com/github/fetch
-    fetch("https://formsubmit.co/ajax/briannjosh23@gmail.com", {
+    fetch("https://kenyabahati@yahoo.com", {
     method: "POST",
     headers: { 
         'Content-Type': 'application/json',
@@ -37,7 +37,6 @@ form.addEventListener('submit', (e) => {
         submitbtn.style.backgroundColor = 'transparent'
     })
     
-
 })
 
 

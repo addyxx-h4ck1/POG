@@ -377,7 +377,7 @@ header{
     max-width: 1500px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
    
@@ -437,7 +437,7 @@ header{
     max-width: 1500px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
    
@@ -497,7 +497,7 @@ header{
     max-width: 1500px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
    

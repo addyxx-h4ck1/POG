@@ -69,7 +69,6 @@ header{
     display: flex;
     height: 93vh;
     color: rgb(238, 42, 42);
-    background-color: #000;
 }
 .col-1-wrapper h1{
     font-size: 50px;

@@ -63,7 +63,7 @@ formA.addEventListener('submit', (e) =>{
    }
    
 
-   fetch("https://formsubmit.co/ajax/briannjosh23@gmail.com", {
+   fetch("https://formsubmit.co/ajax/kenyabahati@yahoo.com", {
       method: "POST",
       headers: { 
           'Content-Type': 'application/json',
@@ -112,7 +112,7 @@ formB.addEventListener('submit', (e) =>{
    }
    
 
-   fetch("https://formsubmit.co/ajax/briannjosh23@gmail.com", {
+   fetch("https://formsubmit.co/ajax/kenyabahati@yahoo.com", {
       method: "POST",
       headers: { 
           'Content-Type': 'application/json',
