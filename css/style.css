@@ -453,11 +453,12 @@ footer{
 
 .pop-up{
     float: right;
+
     bottom: 30px;
     position: sticky;
     font-size: 20px;
     z-index: 1000;
-    background-color: rgba(51, 51, 68, 0.884);
+    background-color: rgba(51, 51, 68, 0.651);
     padding: 10px;
     border-radius: 10px;
 }
