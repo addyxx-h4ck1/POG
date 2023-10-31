@@ -474,3 +474,15 @@ footer{
     color: rgb(8, 255, 8);
    
 }
+@media screen and (min-width: 1000px){
+    .pop-up{
+        float: right;
+        bottom: 40%;
+        position: sticky;
+        font-size: 20px;
+        z-index: 1000;
+        background-color: rgba(51, 51, 68, 0.815);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
