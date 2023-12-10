@@ -44,6 +44,18 @@ li div{
  width: 300px;
  padding-bottom: 1rem;
 }
+.header img{
+  position: absolute;
+  left: 50%;
+  width: 30%;
+
+}
+@media screen and (max-width: 1000px){
+  .header img{
+    display: none;
+   }
+  
+}
 
 @media screen and (max-width: 532px){
   .header h1{
@@ -175,7 +187,9 @@ li div{
 .container{
   width: 100%;
 
+
 }
+
 
 .buttons{
   padding-top: 2rem;
