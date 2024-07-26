@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@500&family=Roboto:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Raleway;
 }
-p{
+
+p {
     line-height: 2rem;
 }
+
 /*  */
 /*  */
 /*  */
@@ -23,14 +25,15 @@ p{
     display: flex;
     justify-content: space-between;
 
-    }
-  /* header{
+}
+
+/* header{
     position: sticky;
     top: 0;
     z-index: 1000;
   } */
-  /* Style the links inside the navigation bar */
-  .topnav a {
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -38,27 +41,27 @@ p{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .active {
+}
+
+/* Add an active class to highlight the current page */
+.active {
     background-color: darkorange;
     color: white;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
     display: none;
-  }
-  
-  /* Dropdown container - needed to position the dropdown content */
-  .dropdown {
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
     float: left;
     overflow: hidden;
-  }
-  
-  /* Style the dropdown button to fit inside the topnav */
-  .dropdown .dropbtn {
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
     font-size: 17px;
     border: none;
     outline: none;
@@ -67,82 +70,98 @@ p{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-  }
-  
-  /* Style the dropdown content (hidden by default) */
-  .dropdown-content {
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.911);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     color: white;
-  }
-  
-  /* Style the links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
     float: none;
     color: darkorange;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
- 
-  }
-  
-  /* Add a dark background on topnav links and the dropdown button on hover */
-  .topnav a:hover, .dropdown:hover .dropbtn {
+
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover,
+.dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
-  }
-  
-  /* Add a grey background to dropdown links on hover */
-  .dropdown-content a:hover {
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
     background-color: #868686;
     color: black;
-  }
-  
-  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-  .dropdown:hover .dropdown-content {
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 700px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn {
-      display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
+
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+        display: none;
     }
+
     .topnav a.icon {
-      float: right;
-      display: block;
+        float: right;
+        display: block;
     }
-    .topnav{
-      display: block;
+
+    .topnav {
+        display: block;
     }
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 700px) {
-    .topnav.responsive {position: relative;}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 700px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
     .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
+
     .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
+        float: none;
+        display: block;
+        text-align: left;
     }
-    .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
+
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+
     .topnav.responsive .dropdown .dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
+        display: block;
+        width: 100%;
+        text-align: left;
     }
-  }
+}
 
 /*  */
 /*  */
@@ -153,22 +172,24 @@ p{
 /*  */
 /*  */
 /*  */
-header{
+header {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.header-wrapper{
+
+.header-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 /* header */
 
 /* coll-1 */
-.col-2 h2{
+.col-2 h2 {
     font-size: 30px;
     color: brown;
     text-transform: uppercase;
@@ -177,12 +198,14 @@ header{
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
-.col-1{
+
+.col-1 {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.col-1-overlay{
+
+.col-1-overlay {
     display: flex;
     max-width: 1500px;
     width: 100%;
@@ -191,7 +214,8 @@ header{
     background-size: cover;
     height: 200px;
 }
-.col-1-wrapper{
+
+.col-1-wrapper {
     display: flex;
     max-width: 1500px;
     width: 100%;
@@ -201,320 +225,363 @@ header{
     color: rgb(194, 194, 194);
     align-items: flex-end;
 }
-.col-1-wrapper h1{
+
+.col-1-wrapper h1 {
     max-width: 450px;
     padding-left: 1rem;
     padding-bottom: 30px;
     color: rgb(231, 46, 46);
     font-weight: 900;
 }
+
 /* coll-1 */
 
 /* col-2 */
-.col-2{
+.col-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
- h3{
+
+h3 {
     width: 100%;
     padding: 10px 10px;
     background-color: rgb(88, 151, 247);
     color: brown;
 }
-.col-2-wrapper{
+
+.col-2-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-2-wrapper div{
+
+.col-2-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
 
 }
-.col-2-wrapper div img{
-   flex-grow: 1;
+
+.col-2-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-2 */
 /* col-3*/
-.col-3{
+.col-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-3-wrapper{
+
+.col-3-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-3-wrapper div{
+
+.col-3-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-3-wrapper div img{
-   flex-grow: 1;
+
+.col-3-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-2 */
 /* col-4*/
-.col-4{
+.col-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-4-wrapper{
+
+.col-4-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-4-wrapper div{
+
+.col-4-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-4-wrapper div img{
-   flex-grow: 1;
+
+.col-4-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-4*/
 /* col-5*/
-.col-5{
+.col-5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-5-wrapper{
+
+.col-5-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-5-wrapper div{
+
+.col-5-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-5-wrapper div img{
-   flex-grow: 1;
+
+.col-5-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-5*/
 /* col-6*/
-.col-6{
+.col-6 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-6-wrapper{
+
+.col-6-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-6-wrapper div{
+
+.col-6-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-6-wrapper div img{
-   flex-grow: 1;
+
+.col-6-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-6*/
 /* col-7*/
-.col-7{
+.col-7 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-7-wrapper{
+
+.col-7-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-7-wrapper div{
+
+.col-7-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-7-wrapper div img{
-   flex-grow: 1;
+
+.col-7-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-7*/
 /* col-8*/
-.col-8{
+.col-8 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-8-wrapper{
+
+.col-8-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-8-wrapper div{
+
+.col-8-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-8-wrapper div img{
-   flex-grow: 1;
+
+.col-8-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-8*/
 /* col-9*/
-.col-9{
+.col-9 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-9-wrapper{
+
+.col-9-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-9-wrapper div{
+
+.col-9-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-9-wrapper div img{
-   flex-grow: 1;
+
+.col-9-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-9*/
 /* col-10*/
-.col-10{
+.col-10 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-10-wrapper{
+
+.col-10-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-10-wrapper div{
+
+.col-10-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-10-wrapper div img{
-   flex-grow: 1;
+
+.col-10-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-10*/
 /* col-11*/
-.col-11{
+.col-11 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-11-wrapper{
+
+.col-11-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
     flex-grow: 1;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-11-wrapper div{
+
+.col-11-wrapper div {
     width: 400px;
     flex-grow: 1;
     padding: 0 1rem;
-   
+
 }
-.col-11-wrapper div img{
-   flex-grow: 1;
+
+.col-11-wrapper div img {
+    flex-grow: 1;
     width: 100%;
     min-height: 300px;
     object-fit: cover;
     max-height: 400px;
 }
+
 /* col-1*/
 
 
@@ -522,13 +589,14 @@ header{
 
 
 /* col-book*/
-.col-book{
+.col-book {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.col-book-wrapper{
+
+.col-book-wrapper {
     max-width: 1500px;
     width: 100%;
     display: flex;
@@ -537,9 +605,11 @@ header{
     justify-content: center;
     align-items: center;
     /* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
-   
+
 }
-.col-book-wrapper input:not(:last-child), textarea{
+
+.col-book-wrapper input:not(:last-child),
+textarea {
     padding: 15px 15px;
     outline: none;
     border: none;
@@ -549,7 +619,8 @@ header{
     border-radius: 6px;
     box-shadow: 0 0 5px;
 }
-.submitbtn{
+
+.submitbtn {
     background-color: brown;
     padding: 10px 10px;
     border: none;
@@ -559,16 +630,21 @@ header{
     font-size: 15px;
     border-radius: 5px;
 }
-.col-book-wrapper div{
+
+.col-book-wrapper div {
     padding: 0 1rem;
     width: 400px;
     flex-grow: 1;
 }
-form{
+
+form {
     text-align: center;
 }
-@media screen and (max-width: 400px){
-    .col-book-wrapper input:not(:last-child), textarea{
+
+@media screen and (max-width: 400px) {
+
+    .col-book-wrapper input:not(:last-child),
+    textarea {
         padding: 10px 10px;
         outline: none;
         border: none;
@@ -577,43 +653,88 @@ form{
         border-radius: 6px;
     }
 }
+
 /* col-6*/
 
 /* footer */
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .footer-wrapper{
+.footer-wrapper {
     max-width: 1500px;
     width: 100%;
     padding: 0 1rem;
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap-reverse;
-   flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
     flex-grow: 1;
     gap: 1rem;
     color: rgb(152, 152, 255);
     background-color: #000000;
-  }
-  .footer-content{
+}
+
+.footer-content {
     width: 100%;
     display: flex;
     align-items: center;
     flex-grow: 1;
     justify-content: space-around;
     gap: 1rem;
-  }
-  .footer-content img{
+}
+
+.footer-content img {
     width: 200px;
-  }
-  @media screen and (max-width: 800px) {
-    .footer-content{
+}
+
+@media screen and (max-width: 800px) {
+    .footer-content {
         flex-direction: column;
         align-items: flex-start;
     }
-  }
+}
+
 /* footer */
+
+.pop-up {
+    float: right;
+
+    bottom: 30px;
+    position: sticky;
+    font-size: 20px;
+    z-index: 1000;
+    background-color: rgba(51, 51, 68, 0.651);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pop-up a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.pop-up a:hover {
+    text-decoration: underline;
+}
+
+.pop-up a i {
+    font-size: 35px;
+    color: rgb(8, 255, 8);
+
+}
+
+@media screen and (min-width: 1000px) {
+    .pop-up {
+        float: right;
+        bottom: 40%;
+        position: sticky;
+        font-size: 20px;
+        z-index: 1000;
+        background-color: rgba(51, 51, 68, 0.815);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

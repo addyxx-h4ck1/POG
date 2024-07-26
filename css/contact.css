@@ -1,29 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* header */
-header{
+header {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.header-wrapper{
+
+.header-wrapper {
     display: flex;
     max-width: 1500px;
     width: 100%;
 }
+
 /* header */
 
 /* col-1 */
-.col-1{
+.col-1 {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.col-1-overlay{
+
+.col-1-overlay {
     max-width: 1500px;
     width: 100%;
     display: flex;
@@ -35,7 +38,8 @@ header{
     background-size: cover;
     background-position: center;
 }
-.col-1-wrapper{
+
+.col-1-wrapper {
     max-width: 1500px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.767);
@@ -46,78 +50,92 @@ header{
     align-items: first baseline;
     justify-content: flex-end;
 }
-.col-1-wrapper h1{
+
+.col-1-wrapper h1 {
     color: rgb(236, 49, 49);
     font-size: 35px;
     padding-bottom: 3rem;
     padding-left: 1rem;
 }
+
 /* col-1 */
 
 /* col-2 */
-.col-2{
+.col-2 {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.col-2-wrapper{
+
+.col-2-wrapper {
     max-width: 1500px;
     width: 100%;
     display: grid;
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
     padding: 0 1rem;
     align-items: center;
-   
+
     color: brown;
 }
-.first{
+
+.first {
     grid-column: 1/3;
     display: flex;
     align-items: center;
     flex-direction: column;
-   
-   
+
+
 }
-h4{
+
+h4 {
     font-size: 20px;
 }
-h2{
-   font-size: 30px; 
+
+h2 {
+    font-size: 30px;
 }
-    
-.first form input:not(:last-child), textarea{
+
+.first form input:not(:last-child),
+textarea {
     padding: 15px 15px;
-   min-width: 300px;
-   margin-bottom: 1rem;
-  background-color: rgb(200, 201, 201);
-   box-shadow: 0 0 5px;
-   border: none;
-   outline: none;
-   border-radius: 5px;
-   margin-left: .2rem;
-  
+    min-width: 300px;
+    margin-bottom: 1rem;
+    background-color: rgb(200, 201, 201);
+    box-shadow: 0 0 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: .2rem;
+
 }
-@media screen and (max-width: 700px){
-    .first form input:not(:last-child), textarea{
+
+@media screen and (max-width: 700px) {
+
+    .first form input:not(:last-child),
+    textarea {
         width: 100%;
         min-width: fit-content;
     }
 }
-.second{
-   display: flex;
-   flex-direction: column;
+
+.second {
+    display: flex;
+    flex-direction: column;
 
 }
-form{
+
+form {
     max-width: 800px;
-   
-   
+
+
 }
-textarea{
+
+textarea {
     width: 100%;
 }
-.submit{
+
+.submit {
     padding: 20px 20px;
     margin-left: 30%;
     width: 200px;
@@ -126,19 +144,65 @@ textarea{
     outline: none;
     margin-bottom: 1rem;
 }
-.submit:hover{
+
+.submit:hover {
     background-color: rgb(150, 149, 149);
     transition: all .5s;
 }
-@media screen and (max-width: 450px){
-    .submit{
+
+@media screen and (max-width: 450px) {
+    .submit {
         width: 100%;
         margin-left: 0;
     }
 }
-@media screen and (max-width: 1500px){
-    .col-1-overlay, .col-1-wrapper{
+
+@media screen and (max-width: 1500px) {
+
+    .col-1-overlay,
+    .col-1-wrapper {
         height: 200px;
     }
 }
+
 /* col-2 */
+
+.pop-up {
+    float: right;
+
+    bottom: 30px;
+    position: sticky;
+    font-size: 20px;
+    z-index: 1000;
+    background-color: rgba(51, 51, 68, 0.651);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pop-up a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.pop-up a:hover {
+    text-decoration: underline;
+}
+
+.pop-up a i {
+    font-size: 35px;
+    color: rgb(8, 255, 8);
+
+}
+
+@media screen and (min-width: 1000px) {
+    .pop-up {
+        float: right;
+        bottom: 40%;
+        position: sticky;
+        font-size: 20px;
+        z-index: 1000;
+        background-color: rgba(51, 51, 68, 0.815);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

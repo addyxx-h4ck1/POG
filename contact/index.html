@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Faire une réservation.</title>
     <!-- Css -->
-    <script src="https://kit.fontawesome.com/f9b4fb9c40.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/contact.css">
+    <script
+      src="https://kit.fontawesome.com/f9b4fb9c40.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
     <!-- Css -->
 
     <!-- js -->
     <script defer src="/js/nav.js"></script>
     <!-- js -->
-</head>
-<body>
+  </head>
+  <body>
     <!-- <header>
         <div class="header-wrapper">
             <div class="topnav" id="myTopnav">
@@ -60,56 +66,119 @@
 
     <!--  -->
     <section class="col-1">
-        <div class="col-1-overlay">
-            <div class="col-1-wrapper">
-                <h1>Booking</h1>
-           </div>
+      <div class="col-1-overlay">
+        <div class="col-1-wrapper">
+          <h1>Booking</h1>
         </div>
-        
+      </div>
     </section>
     <!--  -->
     <!--  -->
     <section class="col-2">
-        <div class="col-2-wrapper">
-            <div class="first">
-                <h2>Faire une réservation.</h2>
-                <br>
-                <form  action="https://formsubmit.co/kenyabahati@yahoo.com" method="POST">
-                    <h4>Vos coordonnées</h4>
-                    <br>
-                    <input type="text" name="First Name" placeholder="Nom*" required>
+      <div class="col-2-wrapper">
+        <div class="first">
+          <h2>Faire une réservation.</h2>
+          <br />
+          <form
+            action="https://formsubmit.co/kenyabahati@yahoo.com"
+            method="POST"
+          >
+            <h4>Vos coordonnées</h4>
+            <br />
+            <input type="text" name="First Name" placeholder="Nom*" required />
 
-                    <input type="text" name="Last Name" placeholder="Pre Nom*" required><br>
-                    
-                    <input type="email" name="Email" placeholder="Addresse email">
+            <input
+              type="text"
+              name="Last Name"
+              placeholder="Pre Nom*"
+              required
+            /><br />
 
-                    <input type="tel" name="Telephone" placeholder="Telephone*" required>
+            <input type="email" name="Email" placeholder="Addresse email" />
 
-                    <h4>Votre projet de safari</h4>
-                    <br>
-                    <input type="text" name="Type of safari" placeholder="Type de safari*" required>
+            <input
+              type="tel"
+              name="Telephone"
+              placeholder="Telephone*"
+              required
+            />
 
-                    <input type="number" name="Number of persons" placeholder="Nombre de personne*" required><br>
+            <h4>Votre projet de safari</h4>
+            <br />
+            <input
+              type="text"
+              name="Type of safari"
+              placeholder="Type de safari*"
+              required
+            />
 
-                    <input type="text" name="Age of Infants" placeholder="Age de enfants (si present)">
+            <input
+              type="number"
+              name="Number of persons"
+              placeholder="Nombre de personne*"
+              required
+            /><br />
 
-                    <input type="text" name="Budget" placeholder="Limite de budget (hors vol*)"><br>
+            <input
+              type="text"
+              name="Age of Infants"
+              placeholder="Age de enfants (si present)"
+            />
 
-                    <input type="hidden" name="_cc" value="webtech.bn@gmail.com">
-                    <input type="hidden" name="_cc" value="felixngari96@gmail.com">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_template" value="table">
+            <input
+              type="text"
+              name="Budget"
+              placeholder="Limite de budget (hors vol*)"
+            /><br />
 
-                    <h4>Complétez votre message</h4>
-                    <br>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+            <input type="hidden" name="_cc" value="webtech.bn@gmail.com" />
+            <input type="hidden" name="_cc" value="felixngari96@gmail.com" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
 
-                    <input type="submit" class="submit" value="Envoyez">
-                </form>
-            </div>
-            
+            <h4>Complétez votre message</h4>
+            <br />
+            <textarea name="message" id="message" cols="30" rows="10"></textarea
+            ><br />
+
+            <input type="submit" class="submit" value="Envoyez" />
+          </form>
         </div>
+      </div>
     </section>
+    <div
+      class="pop-up"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+      "
+    >
+      <a href="https://wa.me/+254727836719"
+        ><i class="fa wp-icon fa-whatsapp"></i
+      ></a>
+      <button
+        class="trigger"
+        id="google_translate_element"
+        style="
+          cursor: pointer;
+          background-color: transparent;
+          color: rgb(65, 110, 246);
+          border: 0;
+          font-size: 16px;
+          font-weight: 800;
+        "
+      >
+        <i class="fa fa-language"></i> Translate
+      </button>
+    </div>
     <!--  -->
-</body>
+    <script src="/translate.js"></script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
 </html>
